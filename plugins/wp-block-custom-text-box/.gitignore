@@ -1,5 +1,4 @@
 # ignore the WP uploads directory
-uploads/
-node_modules/
+uploads
 index.php
 .DS_Store

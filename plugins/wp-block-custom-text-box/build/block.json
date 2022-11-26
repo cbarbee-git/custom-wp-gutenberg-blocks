@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "custom-block/text-box",
+  "version": "0.1.0",
+  "title": "Text Box",
+  "category": "text",
+  "description": "This is a Custom Text Box Block",
+  "keywords": [
+    "text",
+    "box",
+    "paragraph"
+  ],
+  "attributes": {
+    "text": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "custom-text-box",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
