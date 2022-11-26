@@ -1,0 +1,4 @@
+# ignore the WP uploads directory
+uploads
+index.php
+.DS_Store

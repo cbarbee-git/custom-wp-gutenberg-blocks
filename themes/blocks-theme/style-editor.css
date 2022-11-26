@@ -1,0 +1,21 @@
+/* This file contains styles that mimic front-end styles to reflect what content will look like on the site */
+
+body {
+	background-color: rgba(253, 251, 244, 1);
+}
+
+.wp-block {
+	max-width: 800px;
+}
+
+.wp-block[data-align=full] {
+	max-width: none;
+}
+
+.wp-block[data-align=wide] {
+	max-width: 1000px;
+}
+
+.has-custom-button-gradient-gradient-background {
+	background: linear-gradient(45deg, rgb(59, 173, 227) 0%, rgb(87, 111, 230) 25%, rgb(152, 68, 183) 51%, rgb(255, 53, 127) 100%);
+}

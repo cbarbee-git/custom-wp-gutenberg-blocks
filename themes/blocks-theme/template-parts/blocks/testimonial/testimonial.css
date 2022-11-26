@@ -1,0 +1,209 @@
+/* Icon set - http://ionicons.com/ */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
+/*
+use this to remove bg from the row, this bg should only apply to the card
+*/
+.wp-block-acf-testimonial .acf-block-preview {
+	/* set this to the default site color */
+	/* this would only be noticed in the editor */
+	background-color: rgba(253, 251, 244, 1);
+
+}
+
+.has-site-background-color {
+	color: rgba(253, 251, 244, 1);
+}
+
+.has-site-background-background-color {
+	background-color: rgba(253, 251, 244, 1);
+}
+
+.has-white-color {
+	color: rgba(255, 255, 255, 1);
+}
+
+.has-white-background-color {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.has-dark-slate-color {
+	color: rgba(65, 96, 120, 1);
+}
+
+.has-dark-slate-background-color {
+	background-color: rgba(65, 96, 120, 1);
+}
+
+.has-medium-slate-color {
+	color: rgba(100, 145, 187, 1);
+}
+
+.has-medium-slate-background-color {
+	background-color: rgba(100, 145, 187, 1);
+}
+
+.has-light-slate-color {
+	color: rgba(194, 212, 233, 1);
+}
+
+.has-light-slate-background-color {
+	background-color: rgba(194, 212, 233, 1);
+}
+
+.has-accent-green-color {
+	color: rgba(184, 196, 75, 1);
+}
+
+.has-accent-green-background-color {
+	background-color: rgba(184, 196, 75, 1);
+}
+
+.has-cream-color {
+	color: rgba(234, 238, 217, 1);
+}
+
+.has-cream-background-color {
+	background-color: rgba(234, 238, 217, 1);
+}
+
+.has-custom-button-gradient-gradient-background {
+	background: linear-gradient(45deg, rgb(59, 173, 227) 0%, rgb(87, 111, 230) 25%, rgb(152, 68, 183) 51%, rgb(255, 53, 127) 100%);
+}
+
+/*resets the arrow color to NOT be the color bg, but to use a border with the same value */
+.testimonial-arrow.has-site-background-background-color {
+	border-top: 25px solid rgba(253, 251, 244, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-white-background-color {
+	border-top: 25px solid rgba(255, 255, 255, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-dark-slate-background-color {
+	border-top: 25px solid rgba(65, 96, 120, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-medium-slate-background-color {
+	border-top: 25px solid rgba(100, 145, 187, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-light-slate-background-color {
+	border-top: 25px solid rgba(194, 212, 233, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-accent-green-background-color {
+	border-top: 25px solid rgba(184, 196, 75, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-cream-background-color {
+	border-top: 25px solid rgba(234, 238, 217, 1);
+	background-color: transparent !important;
+}
+
+.testimonial-arrow.has-custom-button-gradient-gradient-background {
+	border-top: 25px solid;
+	/* TODO: probably could make an improvement on how to hanlde this gradient */
+	border-image: linear-gradient(135deg, rgb(104, 92, 206) 0%, rgb(130, 82, 162) 31%, rgba(255, 0, 0, 0) 50%);
+	background-color: transparent;
+	border-left: 0 solid transparent;
+	border-right: 25px solid transparent;
+	color: #8252a2
+}
+
+
+.testimonial {
+	font-family: 'Raleway', Arial, sans-serif;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	min-width: 220px;
+	max-width: 310px;
+	width: 100%;
+	text-align: left;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+}
+
+.testimonial * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+	transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+.testimonial img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.testimonial blockquote {
+	position: relative;
+	padding: 25px 50px 25px 50px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	text-align: left;
+	margin: 0;
+	line-height: 1.6em;
+	font-style: italic;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+	font-family: 'FontAwesome';
+	content: "\201C";
+	position: absolute;
+	font-size: 50px;
+	opacity: 0.3;
+	font-style: normal;
+}
+
+.testimonial blockquote:before {
+	top: 25px;
+	left: 20px;
+}
+
+.testimonial blockquote:after {
+	content: "\201D";
+	right: 20px;
+	bottom: 0;
+}
+
+.testimonial-arrow {
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 25px solid transparent;
+	margin: 0;
+	position: absolute;
+}
+
+.testimonial .testimonial-author {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px 25px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.testimonial .testimonial-author h5 {
+	opacity: 0.8;
+	margin: 0;
+	font-weight: 800;
+	font-size: 0.8rem;
+}
+
+.testimonial .testimonial-author h5 span {
+	font-weight: 400;
+	text-transform: none;
+	padding-left: 5px;
+}
