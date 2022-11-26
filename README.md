@@ -20,7 +20,7 @@ And included calls from a Theme's functions.php file, by using the ACF - Pro plu
 
 ## Description
 
-Here I have created a custom 'Toaster' block, and a 'Testimonial' block with ACF. This code is meant to live within
+Here I have created a custom 'Toaster' block with React, and a 'Testimonial' block with ACF. This code is meant to live within
 the 'wp-content' folder of a WordPress installation. It includes theme functions needed to accommodate the ACF plugin
 functions for setup and display in editor and front-end.
 
