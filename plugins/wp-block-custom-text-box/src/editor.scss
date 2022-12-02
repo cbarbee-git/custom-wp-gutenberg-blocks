@@ -3,22 +3,8 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-
-.wp-block-create-block-boilerplate {
-	border: 1px dotted #f00;
-	color: rgba(255, 255, 255, 1);
-}
-
-div.editor-custom-label {
-	align-items: center;
-	display: flex;
-	padding: 0 5px;
-	background-color: rgba(221, 221, 221, 1);
-	border-right: 1px solid rgba(0, 0, 0, 1);
-}
-
-div.editor-custom-label .fav-icon {
-	width: 16px;
+.svg-gradient {
+	fill: url(#g1) !important;
 }
 
 table {
@@ -40,3 +26,4 @@ table tr td {
 table tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
+

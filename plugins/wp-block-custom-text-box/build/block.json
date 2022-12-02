@@ -15,11 +15,69 @@
     "text": {
       "type": "string",
       "source": "html",
-      "selector": "h4"
+      "selector": "p"
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "shadowOpacity": {
+      "type": "number",
+      "default": 30
+    },
+    "gradient": {
+      "type": "string"
+    },
+    "style": {
+      "type": "object",
+      "default": {
+        "color": {
+          "background": "#fff",
+          "text": "#000"
+        },
+        "spacing": {
+          "padding": {
+            "top": "50px",
+            "right": "50px",
+            "bottom": "50px",
+            "left": "50px"
+          }
+        }
+      }
     }
   },
   "supports": {
-    "html": false
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true,
+      "gradients": true
+    },
+    "spacing": {
+      "padding": true
+    }
+  },
+  "styles": [
+    {
+      "name": "squared",
+      "label": "Squared",
+      "isDefault": true
+    },
+    {
+      "name": "rounded",
+      "label": "Rounded"
+    }
+  ],
+  "example": {
+    "attributes": {
+      "text": "Some sample content appears here.",
+      "background": "#fff",
+      "shadow": true
+    }
   },
   "textdomain": "custom-text-box",
   "editorScript": "file:./index.js",

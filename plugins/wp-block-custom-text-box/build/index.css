@@ -6,21 +6,8 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-.wp-block-create-block-boilerplate {
-  border: 1px dotted #f00;
-  color: rgb(255, 255, 255);
-}
-
-div.editor-custom-label {
-  align-items: center;
-  display: flex;
-  padding: 0 5px;
-  background-color: rgb(221, 221, 221);
-  border-right: 1px solid rgb(0, 0, 0);
-}
-
-div.editor-custom-label .fav-icon {
-  width: 16px;
+.svg-gradient {
+  fill: url(#g1) !important;
 }
 
 table {
