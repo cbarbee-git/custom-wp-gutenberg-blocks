@@ -44,8 +44,6 @@ will contain an image, name, bio, and can contain multiple social media links fo
 * @wordpress/block-editor
 * @wordpress/blocks
 * @wordpress/i18n
-* @dnd-kit/core
-* @dnd-kit/sortable
 
 ### Installing
 
