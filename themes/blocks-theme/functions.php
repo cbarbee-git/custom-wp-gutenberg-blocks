@@ -67,7 +67,7 @@ function blocks_theme_setup()
     add_theme_support('responsive-embeds');
     add_theme_support('align-wide');
     //remove custom colors, restrict to the palette listed below
-    add_theme_support('disable-custom-colors');
+    ////add_theme_support('disable-custom-colors');
     //here are the custom color palette to select in the editor
     add_theme_support('editor-color-palette', array(
             array(
@@ -108,7 +108,7 @@ function blocks_theme_setup()
         )
     );
     //remove custom gradients, restrict to the preset(s) listed below
-    add_theme_support('disable-custom-gradients');
+    ////add_theme_support('disable-custom-gradients');
     //here are the custom color palette to select in the editor
     add_theme_support('editor-gradient-presets', array(
         array(
