@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ul.wp-block-custom-latest-posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+
+	li {
+
+		img {
+			margin-bottom: 10px;
+		}
+
+		h5 {
+			font-size: 20px;
+			margin: 0 0 5px;
+			line-height: 1.4;
+		}
+
+		a {
+			color: rgba(0, 0, 0, 1);
+		}
+
+		time {
+			font-size: 12px;
+			color: rgba(51, 51, 51, 1);
+		}
+
+		p {
+			font-size: 14px;
+			line-height: 1.6;
+			margin: 15px 0 0;
+		}
+	}
+}
+
